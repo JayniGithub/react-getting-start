@@ -1,7 +1,7 @@
-function Sidebar () {
+function Sidebar (props) {
     return (
         <>
-            <h3>Sidebar Section</h3>
+            <h3>{props.greeting} {props.name}, greeting from Sidebar</h3>
         </>
     );
 }

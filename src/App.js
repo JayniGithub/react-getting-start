@@ -8,14 +8,14 @@ function App() {
   return (
     <div className="App">
       <div className='header-section'>
-        <Header />
+        <Header greeting="Welcome" name="Ru" />
       </div>
       <div className='content-section'>
         <div className='main-content'>
-          <Main />
+          <Main greeting="Hi" name="Ru" />
         </div>
         <div className='sidebar-content'>
-          <Sidebar />
+          <Sidebar greeting="Howdy" name="Ru" />
         </div>
       </div>
     </div>
